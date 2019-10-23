@@ -1,0 +1,23 @@
+{
+  "name": "Tinder-Backend-Node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/julianosbarbosa/Tinder-Backend-Node",
+  "author": "Juliano <julianotrabalho2016@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.5",
+    "multer": "^1.4.2",
+    "sharp": "^0.23.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js"
+  }
+}
